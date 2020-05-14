@@ -1,0 +1,90 @@
+body {
+  background-image: url(bc.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+  color: #01ab97;
+}
+
+
+.progress {
+  margin: 100px auto;
+}
+
+.progress img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+ul {
+  text-align: left;
+}
+ul li {
+  display: inline-block;
+  width: 100px;
+  position: relative;
+}
+
+ul li .fa {
+  background: #ccc;
+  width: 9px;
+  height: 9px;
+  color: #fff;
+  border-radius: 50%;
+  padding: 6px;
+}
+
+
+
+ul li :nth-child(3) .fa {
+  background: #148e14;
+}
+
+ul li :nth-child(3) .fa::after {
+  background: #148e14;
+}
+
+ul li :nth-child(3) .fa,
+ul li :nth-child(3) .fa {
+  background: #60aa97;
+}
+
+ul li :nth-child(3) .fa::after,
+ul li :nth-child(3) .fa::after {
+  background: #60aa97;
+}
+
+ul li:first-child .fa::after{
+  width: 105px;
+  left: 100px;
+}
+ul li:last-child .fa::after{
+  width: 105px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: DodgerGreen;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 150px;
+  margin: 5px;
+  text-align: Left;
+  line-height: 20px;
+  font-size: 14px;
+
+}
+
+.box-1
+{
+  background-color: red;
+  width: 300px;
+  margin: 15px;
+  text-align: Left;
+  line-height: 20px;
+  font-size: 14px;
+}
